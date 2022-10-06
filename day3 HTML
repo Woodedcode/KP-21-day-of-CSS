@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why you shouldnt set font-sizes using em</title>
+    <link rel="stylesheet" href="/Users/ryanwoods/Desktop/kp21CSS/day3/style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="title">Why ems can be dangerous</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione, non quod iusto cum quidem
+            sapiente ipsum totam, eum at nobis consequuntur, officiis autem. Dolore voluptates, perferendis ea magnam
+            quibusdam provident quisquam quae consequatur ullam.</p>
+        <ul>
+            <!-- font size-->
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit.</li>
+                </ul>
+            </ul>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae esse ipsum reiciendis placeat eaque
+            expedita, itaque quaerat iusto odio aperiam earum magni quia quasi quod.</p>
+        <div class="cta">
+            <h2 class="cta_title">Buy our product!</h2>
+            <p class="cta_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos quidem fugiat
+                placeat, blanditiis aliquam!</p>
+            <p><a href="x" class="cta_btn">Buy here!</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
