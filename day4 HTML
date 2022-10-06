@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>max-width</title>
+    <link rel="stylesheet" href="/Users/ryanwoods/Desktop/kp21CSS/day4/style.css">
+</head>
+
+<body>
+    <dix class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p class="intro-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem sequi numquam vitae
+            accusamus quibusdam harum suscipit sint ad corrupti, possimus est animi quisquam quos iste.</p>
+    </dix>
+</body>
+
+</html>
