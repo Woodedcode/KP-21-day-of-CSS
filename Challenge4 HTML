@@ -44,7 +44,7 @@
         </div>
         <div class="container col">
             <div class="three-col">
-                <div>
+                <div class="one">
                     <h1>Cheap</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
