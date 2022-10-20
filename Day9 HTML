@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Roboto:wght@300;900&display=swap"
+        rel="stylesheet">
+    <!--STYLE-->
+    <link rel="stylesheet" href="/Users/ryanwoods/Desktop/kp21CSS/day9/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container row">
+            <div class="hero__text">
+                <h1>Responsive layouts don’t have to be a struggle </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam.</p>
+                <a href="x" class="btn">I want to learn</a>
+            </div>
+            <div>
+                <img class="hero__img"
+                    src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-3mRwALaeIio%2FT9xPJuTI5RI%2FAAAAAAAAAUI%2FDDpntCBl05o%2Fs320%2F001%2B(5).jpg&f=1&nofb=1&ipt=44520beda2de7e00233514afb9819a599aaa7ee98aeaf7719a0899c0efecb78d&ipo=images"
+                    alt="website picture">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
