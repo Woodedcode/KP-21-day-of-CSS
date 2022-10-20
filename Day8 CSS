@@ -20,11 +20,17 @@ h1{
 
     /* default = row */
     flex-direction: row;
+    /* cant use yet */
+    /* gap: 100PX; */
+}
+.col + .col{
+    /* background-color: limegreen; */
+    margin-left: 30px;
 }
 .col{
     /*  flex items  */
-    background: limegreen;
-    margin: 10px;
+    /* background: limegreen;
+    margin: 10px; */
     width: 100%;
 }
 .hero{
