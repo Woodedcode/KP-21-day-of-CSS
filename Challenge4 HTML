@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Roboto:wght@300;900&display=swap"
+        rel="stylesheet">
+    <!--STYLE-->
+    <link rel="stylesheet" href="/Users/ryanwoods/Desktop/kp21CSS/day8/Challenge04/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="hero__text">
+                <h1>Responsive layouts don’t have to be a struggle </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam.</p>
+                <a href="x" class="btn">I want to learn</a>
+            </div>
+        </div>
+    </div>
+    <section class="three-col">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="three-col__title">Cheap</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae harum eum inventore!</p>
+                </div>
+                <div class="col">
+                    <h2 class="three-col__title">Quick</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, laudantium!</p>
+                </div>
+                <div>
+                    <h2 class="three-col__title">Affordable</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro sit quaerat eius magnam?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="two-col">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Cheap</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col">
+                    <h2>Quick</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, eligendi molestiae!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
