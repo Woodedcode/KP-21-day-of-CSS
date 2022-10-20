@@ -32,37 +32,28 @@
             </div>
         </div>
     </div>
-    <div class="bottom">
-        <div class="about">
-            <h1>Quality designs made custom, on demand, just for you</h1>
+    <main class="main container row">
+        <section class="primary-content">
+            <h2 class="section-title">Quality designs made custom, on demand, just for you</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-        <div class="container col">
-            <div class="three-col">
-                <div class="one">
-                    <h1>Cheap</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <div class="two">
-                    <h1>Quick</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <div class="three">
-                    <h1>Quality</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
+        </section>
+        <aside class="sidebar">
+            <h2 class="sidebar-title">Cheap</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <h2 class="sidebar-title">Quick</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <h2 class="sidebar-title">Quality</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </aside>
+    </main>
 
 
 </body>
