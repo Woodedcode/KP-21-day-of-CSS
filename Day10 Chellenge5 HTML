@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTS-->
+    <!--ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Playfair+Display&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+    <!--PLAYFAIR-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;900&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+    <!--STYLE-->
+    <link rel="stylesheet" href="../day10/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <h6>Lorem, ipsum dolor.</h6>
+        <h1 class="title--dark">Responsive layouts dont have to be a struggle</h1>
+    </div>
+    <div class="about">
+        <h3 class="title--dark">Quality Designs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa recusandae velit perspiciatis quidem
+            architecto inventore officia quibusdam omnis magni cum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum adipisci vero a excepturi repellat odit
+            delectus, voluptatem quisquam enim perferendis!</p>
+    </div>
+    <div class="one">
+        <h3 class="title--light">Made custome for you</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laboriosam autem eligendi dolor fugit
+            distinctio! Maiores, iste deserunt. Voluptates fugit, beatae quisquam sed corrupti inventore.</p>
+        <img src="../day10/image-01.jpg" alt="">
+    </div>
+    <div class="two">
+        <img src="../day10/image-02.jpg" alt="">
+        <h3 class="title--light">Created with care</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad ut, asperiores deleniti, iste nesciunt
+            voluptatum minima eligendi adipisci, animi vero odio? Minima, ab blanditiis.</p>
+    </div> -->
+
+    <section class="intro">
+        <div class="container"></div>
+        <p class="intro__text">Lorem, ipsum dolor.</p>
+        <h1 class="into__title">Responsive latout dont have to be a struggle</h1>
+        </div>
+    </section>
+
+    <section class="section-two">
+        <div class="container">
+            <h2 class="section__title section-title--dark">Quality Designs</h2>
+            <div class="row">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, voluptatum maiores velit
+                        ducimus assumenda officia libero. Ratione recusandae sed ullam.</p>
+                </div>
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam animi optio commodi
+                        reprehenderit praesentium placeat quos quae ipsa at eveniet?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-three">
+        <div class="container row">
+            <div class="col">
+                <h2 class="section-title">Made custom for you</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, alias nisi. Quod reprehenderit
+                    beatae, praesentium voluptates debitis qui dolorem sapiente.</p>
+            </div>
+            <div class="col">
+                <img src="../day10/image-01.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-four">
+        <div class="container row">
+            <div class="col">
+                <img src="../day10/image-02.jpg" alt="">
+            </div>
+            <div class="col">
+                <h2 class="section-title">Created with care</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, exercitationem praesentium
+                    mollitia molestiae nulla laborum laboriosam error voluptate amet sequi deserunt esse nisi quaerat id
+                    inventore tempore earum minima!</p>
+            </div>
+        </div>
+    </section>
+</body>
+</main>
