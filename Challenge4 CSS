@@ -1,91 +1,83 @@
-   *, *::before, *::after {
-    box-sizing: border-box;
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* TYPOGRAPHY */
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  color: #222C2A;
 }
 
 img{
-    max-width: 100%;
-}
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
-    border: 2px solid black;
+  max-width: 100%;
 }
 
-h1 {
-    font-size: 3rem;
-    margin-top: 0;
+h1,h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  margin-top: 0;
+  line-height: 1;
+}
+/* RE-USABLE ELEMENTS */
+section{
+  padding: 4em 0;
+}
+.container{
+  width:85%;
+  margin: 0 auto;
+  max-width: 1128px;
 }
 .section-title{
-    color: #87629A;
+  font-size: 2.25rem;
+  color: #F3EED9;
 }
-.btn {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase; 
-    color: #23424A;
-    font-weight: 900;
-    background-color: #38CFD9;
-    padding: .75em 2em;
-    border-radius: 100px;
+.section-title--dark{
+  color: #824936;
 }
+.intro{
+  background: #F3EED9;
+  padding: 200px 0;
+  text-align: center;
+  color: #824636;
+  min-height: 0px;
+}
+.intro__text{
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-size: 1.125rem;
+  color: #222C2A;
+  margin: 0 0 .25em;
+}
+.intro__title{
+  font-size: 3rem;
+}
+.section-three{
+  background-color: #222C2A;
+  color: #fff;
+}
+.section-four{
+  background-color: #824636;
+  color: #fff;
+}
+/* MEDIA QUERIES */
 
-.btn:hover,
-.btn:focus {
-    opacity: .75; 
-}
-
-.container {
-    width: 80%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.row {
-    /* display: flex => flex container */
+@media (min-width: 800px) {
+  .row{
     display: flex;
-    justify-content: space-between;
-    /* can't use yet */
-    /* gap: 100px; */
-}
-.col + .col{
-    margin-left: 30px;
-}
-
-.col {
-    /* these are now flex items */
+  }
+  .col{
     width: 100%;
-}
-
-.hero {
-    padding: 100px 0;
-    background-color: #23424A;
-    color: #FFF;
-}
-
-.hero__text {
-    width: 62%;
-}
-.hero__img{
-    width: 32%;
-    align-self: flex-start;
-}
-.hero p {
-    margin-bottom: 3em;
-}
-/* */
-.main{
-    margin-top: 3em;
-}
-.primary-content{
-    width: 62%;
-}
-.sidebar{
-    width: 32%;
-    padding: 1em;
-    text-align: center;
-    color: #FFF;
-    background-color: #136c72;
+  }
+  .col + .col{
+    margin-left: 5em;
+  }
+  .intro__title{
+    font-size: 3.75rem;
+  }
 }
 
 
