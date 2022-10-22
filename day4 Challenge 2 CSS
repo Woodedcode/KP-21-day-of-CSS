@@ -1,4 +1,5 @@
 /* INSTRUCTIONS
+
  *
  * 1) Keep the text inside .intro-content
  *    in the same place, but have the background
@@ -41,3 +42,5 @@ body {
 
 
 }
+
+
